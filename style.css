@@ -4,9 +4,9 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     #gib-link {max-width: 35px; max-height: 35px;}
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -43,6 +43,7 @@ html, body {
     height: 50px;
     width: 75px;
     font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
     margin: auto;
     text-decoration: none;
@@ -73,7 +74,8 @@ html, body {
     padding-top: 50px;
     position: relative;
     min-height: 100vh;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    width: 100vw;
 }
 
 .bio {
@@ -92,11 +94,16 @@ html, body {
 }
 
 #foot {
-    max-height: 100px;
+    max-height: 50px;
     border-top: solid 1px grey;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    /* margin-bottom: -70px; */
+}
+
+.foot-container {
+    
 }
 
 #gib-link {
@@ -104,5 +111,15 @@ html, body {
     width: 35px;
     margin: 10px
 }
+
+#gib-link:hover {
+    cursor: pointer;
+    border: dotted navy 2px;
+    border-radius: 180px;
+    transition-duration: .3s;
+    border-style: ;
+
+}
+
 
 
