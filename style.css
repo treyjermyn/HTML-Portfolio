@@ -6,6 +6,8 @@ html, body {
 
 @media only screen and (max-width: 480px) {
     .logo {max-width: 150px; max-height: 150px;}
+    .da-logos {max-width: 250px;}
+    .contact-form {max-width: 220px;}
 }
 
 * {
@@ -25,18 +27,14 @@ html, body {
     margin-bottom: 20px;
 
 } */
+/*------------------ Nav Bar -------------------- */
 
 .nahv {
     display: flex;
     flex-direction: column;
 }
 
-
-/* .container {
-    display: flex;
-    flex-direction: column;
-} */
-
+/*------------------ Nav Bar Links -------------------- */
 
 .linky {
     text-align: center;
@@ -59,8 +57,10 @@ html, body {
 
 }
 
+/*------------------ Headings -------------------- */
+
 .heading-one {
-    text-align: center;
+    /* text-align: center; */
     font-size: 2em;
 
 }
@@ -70,23 +70,20 @@ html, body {
     font-size: 20px;
 }
 
+/*------------------ Main Container  -------------------- */
 .main-tainer {
     display: flex;
     flex-direction: column;
-    flex-flow: 1;
-    padding-top: 50px;
-    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
     min-height: 100vh;
-    padding-bottom: 50px;
     width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.bio {
-    /* border: solid 2px black; */
-    align-self: center;
-    max-width: 825px;
-    text-align: center;
-}
+
+/*------------------ Logos Styles -------------------- */ 
 
 .da-logos {
     display: flex;
@@ -98,9 +95,11 @@ html, body {
 
 .a-logo {
     padding: 75px;
+    height: 400px;
+    width: 400px;
 }
 
-.a-logo:hover {
+.logo:hover {
     transform: scale(1.5);
     transition-duration: .2s;
     cursor: pointer;
@@ -111,27 +110,50 @@ html, body {
     width: 250px;
 }
 
+.contact-form {
+
+    margin: 100px;
+    width: 1500px;
+}
+/*------------------ Who am I-------------------- */
+.w-i {
+    margin: 20px;
+}
+
+.bio {
+    /* border: solid 2px black; */
+    align-self: center;
+    max-width: 825px;
+    text-align: center;
+}
+
+.my-bio {
+        justify-content: center;
+}
+
 #my-img {
     height: 250px;
     width: 250px;
     margin: 10px;
-    align-self: center;
+    /* align-self: center; */
     border-radius: 180px;
 }
 
+#my-img:hover {
+    cursor: pointer;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
+/*------------------ Footer -------------------- */
 #foot {
-    max-height: 50px;
+    height: 50px;
     border-top: solid 1px grey;
     width: 100%;
-    position: relative;
-    bottom: 0;
-    /* margin-bottom: -70px; */
 }
-
 .foot-container {
-    
+    height: 50px;
 }
-
+/*------------------ -------------------- */
 #gib-link {
     height: 35px;
     width: 35px;
@@ -145,6 +167,13 @@ html, body {
     transition-duration: .3s;
     border-style: ;
 
+}
+
+.giblub {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -10px;
+    margin-top: 10px;
 }
 
 
