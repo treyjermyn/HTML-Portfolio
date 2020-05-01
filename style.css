@@ -12,7 +12,7 @@ html, body {
     box-sizing: border-box;
 }
 
-#main-tainer, #headtainer, #foot {
+#headtainer, #foot {
     flex-flow: 1;
     /* border-style: solid;
     border-width: 2px;
@@ -32,10 +32,10 @@ html, body {
 }
 
 
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 .linky {
@@ -70,7 +70,10 @@ html, body {
     font-size: 20px;
 }
 
-#main-tainer {
+.main-tainer {
+    display: flex;
+    flex-direction: column;
+    flex-flow: 1;
     padding-top: 50px;
     position: relative;
     min-height: 100vh;
@@ -83,6 +86,28 @@ html, body {
     align-self: center;
     max-width: 825px;
     text-align: center;
+}
+
+.da-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.a-logo {
+    padding: 75px;
+}
+
+.a-logo:hover {
+    transform: scale(1.5);
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+.logo{
+    height: 250px;
+    width: 250px;
 }
 
 #my-img {
