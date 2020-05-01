@@ -4,9 +4,9 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* @media only screen and (max-width: 480px) {
-    #gib-link {max-width: 35px; max-height: 35px;}
-} */
+@media only screen and (max-width: 480px) {
+    .logo {max-width: 150px; max-height: 150px;}
+}
 
 * {
     box-sizing: border-box;
@@ -92,6 +92,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
