@@ -5,7 +5,8 @@ html, body {
 }
 
 @media only screen and (max-width: 480px) {
-    .logo {max-width: 150px; max-height: 150px;}
+    .logo {max-width: 200px; max-height: 200px; }
+    .a-logo {max-height: 300px;}
     .da-logos {max-width: 250px;}
     .contact-form {max-width: 220px;}
 }
@@ -92,6 +93,7 @@ html, body {
     padding: 75px;
     height: 400px;
     width: 400px;
+    /* border: solid black 2px; */
 }
 
 .logo:hover {
