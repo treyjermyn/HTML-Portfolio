@@ -2,6 +2,7 @@ html, body {
     background-color:  #e6f2ff
     ;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 @media only screen and (max-width: 480px) {
@@ -9,6 +10,7 @@ html, body {
     .a-logo {max-height: 300px;}
     .da-logos {max-width: 250px;}
     .contact-form {max-width: 220px;}
+    .dungi {margin: -200px;}
 }
 
 * {
@@ -69,7 +71,7 @@ html, body {
 .heading-three {
     text-align: center;
     font-size: 3em;
-    margin: 20px;
+    margin: 0px;
 }
 
 /*------------------ Main Container  -------------------- */
@@ -116,7 +118,8 @@ html, body {
 .contact-form {
 
     margin: 100px;
-    width: 1500px;
+    width: 800px;
+    /* max-width: 900px; */
 }
 /*------------------ Who am I-------------------- */
 .w-i {
@@ -180,10 +183,11 @@ html, body {
 }
 
 .dungi {
-    height: 1000px;
-    width: 1500px;
+    height: auto;
+    width: 100vw;
     border: solid grey 2px;
     border-radius: 5px;
+    margin-top: 300px;
 }
 
 .dungi-imgs {
@@ -192,11 +196,13 @@ html, body {
     align-items: center;
     margin-top: 300px;
     margin-bottom: 600px;
+    text-align: center;
+    font-size: 14px;
 
 }
 
 .design-sec {
-    opacity: 0;
+    opacity: 1;
     transform: translate(0, 20px);
     transition: all 1s;
 }
@@ -206,6 +212,18 @@ html, body {
     transform: translate(0, 0);
 }
 
+#submit-btn {
+    border-radius: 5px;
+    font-size: 10px;
+}
 
+#submit-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
 
+#description {
+    padding-top: 40px;
+}
 
