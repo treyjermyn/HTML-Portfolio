@@ -193,6 +193,7 @@ html, body {
 .dungi-imgs {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 300px;
     margin-bottom: 600px;
